@@ -37,7 +37,11 @@ const FullPizza: React.FC = () => {
         <Loader />
       ) : (
         <>
-          <img src={pizza.imageUrl} alt={pizza.title} />
+          <img
+            className="fullpizza_img"
+            src={pizza.imageUrl}
+            alt={pizza.title}
+          />
           <br />
           <h2>{pizza.title}</h2>
           <br />

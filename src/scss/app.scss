@@ -113,6 +113,17 @@ body {
       margin: 0;
     }
   }
+
+  @media (max-width: 750px) {
+    .fullpizza_img {
+      width: 400px;
+    }
+  }
+  @media (max-width: 500px) {
+    .fullpizza_img {
+      width: 220px;
+    }
+  }
 }
 
 .cart {
