@@ -438,5 +438,40 @@ body {
         margin-top: 40px;
       }
     }
+
+    &--empty {
+      width: 290px;
+
+      h2 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      h4 {
+        font-size: 25px;
+        margin: 15px auto;
+      }
+
+      img {
+        width: 200px;
+      }
+
+      .button--black {
+        width: 170px;
+
+        font-size: 14px;
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .content__title {
+      font-size: 20px;
+      margin-right: 35px;
+    }
   }
 }
